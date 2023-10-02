@@ -91,6 +91,7 @@ resource "openstack_compute_instance_v2" "worker_instance" {
 
   flavor_name = var.K8S_WORKER_FLAVOR
 
+
   key_pair = var.K8S_KEY_PAIR
   security_groups = [ var.K8S_SECURITY_GROUP, openstack_networking_secgroup_v2.instance_comms.name ]
 
