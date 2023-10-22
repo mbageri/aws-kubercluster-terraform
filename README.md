@@ -1,4 +1,4 @@
-kubernetes-playbooks
+terraform-kubernetescluster-onOpenstack
 =============
 
 Ansible playbooks that creates a Kubernetes 1.28 cluster of Openstack instances running Ubuntu 22.04 LTS.
